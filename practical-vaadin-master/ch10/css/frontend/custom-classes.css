@@ -1,0 +1,24 @@
+.CssClassesView {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.CssClassesView-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--lumo-primary-text-color);
+    color: var(--lumo-primary-contrast-color);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.CssClassesView-header h1 {
+    color: var(--lumo-primary-contrast-color);
+}
+
+.CssClassesView-header a {
+    color: var(--lumo-primary-contrast-color);
+}

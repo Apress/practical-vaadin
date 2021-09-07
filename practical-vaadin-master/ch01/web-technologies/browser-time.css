@@ -1,0 +1,20 @@
+html {
+  font: 15px Arial;
+}
+
+body {
+  margin: 30px;
+}
+
+h1 {
+  width: 100%;
+  background-color: rgba(22, 118, 243, 0.1);
+  padding: 10px;
+}
+
+.time-button {
+  font-size: 15px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 4px;
+}

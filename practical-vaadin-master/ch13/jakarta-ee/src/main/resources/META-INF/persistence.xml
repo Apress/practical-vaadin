@@ -1,0 +1,10 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+
+	<persistence-unit name="jakarta-ee-example-pu"
+		transaction-type="RESOURCE_LOCAL">
+		<jta-data-source>mysqlDatasource</jta-data-source>
+		<class>com.apress.practicalvaadin.ch13.User</class>
+	</persistence-unit>
+
+</persistence>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.apress.practicalvaadin</groupId>
+	<artifactId>practical-vaadin</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>ch02/my-first-vaadin-app</module>
+		<module>ch02/welcome-to-vaadin</module>
+
+		<module>ch03/layouts</module>
+
+		<module>ch04/input-components</module>
+		<module>ch04/interaction-components</module>
+		<module>ch04/visualization-components</module>
+
+		<module>ch05/manual-binding</module>
+		<module>ch05/binder</module>
+		<module>ch05/nested-properties</module>
+		<module>ch05/conversion</module>
+		<module>ch05/validation</module>
+		<module>ch05/jakarta-bean-validation</module>
+
+		<module>ch06/grid</module>
+
+		<module>ch07/routes</module>
+		<module>ch07/navigation-lifecycle</module>
+		<module>ch07/url-parameters</module>
+
+		<module>ch08/no-push</module>
+		<module>ch08/with-push</module>
+		<module>ch08/manual-push</module>
+		<module>ch08/thread-experiment</module>
+		<module>ch08/thread-pool</module>
+
+		<module>ch09/dom-manipulation</module>
+		<module>ch09/javascript-integration</module>
+		
+		<module>ch10/themes</module>
+		<module>ch10/css</module>
+		<module>ch10/responsiveness</module>
+		
+		<module>ch11/vaadin-fusion</module>
+		
+		<module>ch12/spring</module>
+		
+		<module>ch13/jakarta-ee</module>
+	</modules>
+
+</project>

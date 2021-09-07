@@ -1,0 +1,38 @@
+.CssView {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.CssView-menu {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--lumo-primary-color-10pct);
+}
+
+.CssView-menu a {
+	margin-left: 1em;
+	white-space: nowrap;
+}
+
+.CssView-content {
+	margin-left: 1em;
+}
+
+@media screen and (min-width: 800px) {
+	.CssView {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.CssView-menu {
+		display: flex;
+		flex-direction: column;
+		padding: 1em;
+	}
+	
+	.CssView-menu a {
+		margin-bottom: 1em;
+		margin-left: 0em;
+	}
+}

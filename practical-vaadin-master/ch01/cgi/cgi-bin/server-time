@@ -1,0 +1,22 @@
+#!/usr/bin/java --source 11
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Date;
+
+public class ServerTime {
+
+  public static void main(String[] args) throws IOException {
+    Path path = Path.of("cgi-bin/template.html");
+    String template = Files.readString(path,
+        Charset.defaultCharset());
+
+    String content = "Time in the server: " + new Date();
+    String output = template.replace("{{placeholder}}", content);
+
+    System.out.println("Content-Type: text/html\n");
+    System.out.println(output);
+  }
+}
